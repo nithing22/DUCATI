@@ -524,6 +524,34 @@ section {
 .register-button a:hover {
     background-color: #0056b3;
 }
+  .quick-links {
+
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.quick-links h1 {
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.quick-links a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  background-color: transparent; /* Sets the background to transparent */
+}
+
+.quick-links a img {
+  width: 50px;
+  height:auto;
+  margin-right: 10px;
+ 
+}
 
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
@@ -916,7 +944,7 @@ function activateLink(link) {
     <a href="tel:+918989568689">+91 8989568689</a>
   </p>
 </div>
-<br><br>
+<br>
 <script>
 function showContact() {
   // Hide all sections except the contact section
@@ -931,6 +959,23 @@ function showContact() {
   document.getElementById('contact').style.display = 'block';
 }
 </script>
+  <div class="quick-links">
+<H1 style="color:white;"> QUICK LINKS</h1>
+  <a href="https://github.com/nithing22" target="_blank">
+    <img src="hublogo.png" alt="GitHub">
+
+  </a>
+  <a href="mailto:girirajunithin22@gmail.com">
+    <img src="gmail.png" alt="Email">
+   
+  </a>
+  <a href="www.linkedin.com/in/nithin-g-6413a3273" target="_blank">
+    <img src="link.png" alt="LinkedIn">
+   </a>
+   <a href="#ducati">
+    <img src="get.png" alt="Home">
+</a>
+</div><br><br>
 <footer>
   <p>&copy; <span id="currentYear"></span> All rights reserved | Designed by Nithin G</p>
 </footer>
